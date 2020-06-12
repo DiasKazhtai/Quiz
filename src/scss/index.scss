@@ -1,1 +1,43 @@
 @import './reset.scss';
+
+
+body {
+    background-color:#eca7fa
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin-left: 450px;
+    margin-top: 200px;
+    font-size: 22px;
+    .tableform {
+        width: 800px;
+        height: 400px;
+        border: 1px solid black;
+        border-radius: 6px;
+    }
+    .header-info {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 30px;
+        margin-bottom: 10px;
+        margin-right: 30px;
+    }
+    .question{
+        margin-left: 30px;
+        margin-bottom: 30px;
+    }
+    .answer-item{
+        margin: 20px 0 20px 30px;
+        padding: 10px;
+        border: 1px solid black;
+        width: 200px;
+        border-radius: 6px;
+        cursor: pointer;
+    }
+    .answer-item:hover {
+        background-color: white;
+    }
+}
+
